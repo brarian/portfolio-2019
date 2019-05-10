@@ -41,17 +41,15 @@
           brarian <br />
           namonywa
         </div>
-        <aside>fullstack web developer</aside>
       </div>
       <div class="dropdown_menu">
         <button onclick="drop()" class="drop_button">
           <i class="fas fa-bars fa-2x"></i>
         </button>
         <div id="drop_id" class="content">
-          <a href="#">about me</a>
-          <a href="#">my work </a>
-          <a href="#">resume</a>
-          <a href="#">contact</a>
+          <div>about me</div>
+          <div>my work </div>
+          <div onClick="goto(footer)">contact</div>
         </div>
       </div>
     </header>
@@ -72,7 +70,7 @@
         <img
           class="capstone_pic"
           src="little_mixer.png"
-          alt="picture of brarian namonywa"
+          alt="Homepage of Little Mixer"
         />
 
         <aside>
@@ -88,7 +86,8 @@
             Technology Used: React, Redux, Node.js, Express, MongoDB, Enzyme,
             Mocha, Axios
           </p>
-          <a href="">Demo</a> <a href="">Github</a>
+          <a href="https://littlemixer.netlify.com/">Demo</a>
+          <a href="https://github.com/brarian/new-party-app">Github</a>
         </aside>
       </section>
 
@@ -135,35 +134,41 @@
     </main>
 
     <!--------------- MY WORK END -------------->
-   
+
     <!--------------- FOOTER START-------------->
     <footer>
-      <h2>Let's Connect!</h2>
+      <h2 className="footer">Let's Connect!</h2>
+      <h3>b.namonywa@gmail.com</h3>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/brarian/">
+          <a href="https://www.linkedin.com/in/brarian/" target="blank">
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
         </li>
         <li>
-          <a href="mailto:b.namonywa@gmail.com?subject=Contact Me"
+          <a
+            href="mailto:b.namonywa@gmail.com?subject=Contact Me"
+            target="blank"
             ><i class="far fa-envelope fa-3x"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/brarian"
+          <a href="https://github.com/brarian" target="blank"
             ><i class="fab fa-github fa-3x"></i
           ></a>
         </li>
         <li>
-          <a href="https://github.com/brarian"
+          <a href="Brarian_Namonywa_Resume.pdf" target="blank"
             ><i class="far fa-file fa-3x"></i
           ></a>
         </li>
       </ul>
     </footer>
     <!--------------- FOOTER END-------------->
-
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <script src="index.js" async defer></script>
   </body>
 </html>
