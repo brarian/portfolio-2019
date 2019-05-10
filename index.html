@@ -48,8 +48,8 @@
         </button>
         <div id="drop_id" class="content">
           <div>about me</div>
-          <div>my work </div>
-          <div onClick="goto(footer)">contact</div>
+          <div><a href="#work">my work</a></div>
+          <div onclick="goto('footer')">contact</div>
         </div>
       </div>
     </header>
@@ -65,8 +65,8 @@
 
       <!--------------- MY WORK START -------------->
 
-      <h2>my work</h2>
-      <section class="work">
+      <h2 id="work">my work</h2>
+      <section>
         <img
           class="capstone_pic"
           src="little_mixer.png"
@@ -166,9 +166,10 @@
     </footer>
     <!--------------- FOOTER END-------------->
     <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js" async defer></script>
   </body>
 </html>
