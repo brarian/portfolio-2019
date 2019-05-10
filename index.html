@@ -16,9 +16,16 @@
       href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -29,138 +36,133 @@
     <![endif]-->
 
     <header>
-      brarian <br />
-      namonywa
-      <aside>fullstack web developer</aside>
-    </header>
-    <div class="dropdown_menu">
-        <button onclick="drop()" class="drop_button"><i class="fas fa-bars fa-2x"></i></button>
+      <div class="heading">
+        <div>
+          brarian <br />
+          namonywa
+        </div>
+        <aside>fullstack web developer</aside>
+      </div>
+      <div class="dropdown_menu">
+        <button onclick="drop()" class="drop_button">
+          <i class="fas fa-bars fa-2x"></i>
+        </button>
         <div id="drop_id" class="content">
           <a href="#">about me</a>
           <a href="#">my work </a>
           <a href="#">resume</a>
           <a href="#">contact</a>
         </div>
-      </div> 
+      </div>
+    </header>
     <main>
       <!--------------- ABOUT ME START -------------->
       <section class="about_me">
-        <img
-          class="my_pic"
-          src="https://pixel.nymag.com/imgs/fashion/daily/2018/10/05/05-fat-bear-week.w700.h467.jpg"
-          alt="picture of brarian namonywa"
-        />
-
-        <aside class="about_me_desc">
-          IM a BEAR Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Quidem vero sed illo ipsa! Vero aspernatur porro nisi, quia aliquid
-          recusandae, velit non reiciendis esse optio magni et atque ipsa illo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eius
-          quis dolorem in iure odit mollitia necessitatibus eos ex. Dicta odio
-          qui error! Culpa placeat nostrum inventore numquam, nesciunt illo!
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, vel.
-          Qui asperiores, sunt laudantium id consectetur obcaecati temporibus.
-          Numquam consectetur et molestiae ea sed! Consequuntur culpa aspernatur
-          laboriosam deleniti vitae?
-        </aside>
+        Hi, I'm Brarian, a fullstack web developer. I aspire to use technology
+        to innovate products and services that positively impact people and
+        bring them joy. I'm a pop culture fanatic who spends my time outside of
+        work on the water, in the gym, or traveling.
       </section>
       <!--------------- ABOUT ME END -------------->
 
       <!--------------- MY WORK START -------------->
-      
-        <h2>my work</h2>
-        <section class="work wrapper">
+
+      <h2>my work</h2>
+      <section class="work">
+        <img
+          class="capstone_pic"
+          src="little_mixer.png"
+          alt="picture of brarian namonywa"
+        />
+
+        <aside>
           <h3>Little Mixer</h3>
-          <img
-            class="capstone_pic"
-            src="https://pixel.nymag.com/imgs/fashion/daily/2018/10/05/05-fat-bear-week.w700.h467.jpg"
-            alt="picture of brarian namonywa"
-          />
 
-          <aside>
-            Little Mixer is an app which guides users through the process of
-            planning and throwing a Dinner or Cocktail Party. Little Mixer is
-            intended to make, entertaining, a process that is seems overwhelming
-            achievable. Entertaining should be easy and fun. Given a plan anyone
-            can be a great host.
+          Little Mixer is an app which guides users through the process of
+          planning and throwing a Dinner or Cocktail Party. Little Mixer is
+          intended to make, entertaining, a process that is seems overwhelming
+          achievable. Entertaining should be easy and fun. Given a plan anyone
+          can be a great host.
 
-            <p>
-              Technology Used: React, Redux, Node.js, Express, MongoDB, Enzyme,
-              Mocha, Axios
-            </p>
-            <a href="">Demo</a>   ||   <a href="">Github</a>
-
-          </aside>
-        </section>
-       
-       <section class="work wrapper">
-          <h3>Little Mixer</h3>
-          <img
-            class="capstone_pic"
-            src="https://pixel.nymag.com/imgs/fashion/daily/2018/10/05/05-fat-bear-week.w700.h467.jpg"
-            alt="picture of brarian namonywa"
-          />
-
-          <aside>
-            Little Mixer is an app which guides users through the process of
-            planning and throwing a Dinner or Cocktail Party. Little Mixer is
-            intended to make, entertaining, a process that is seems overwhelming
-            achievable. Entertaining should be easy and fun. Given a plan anyone
-            can be a great host.
-
-            <p>
-              Technology Used: React, Redux, Node.js, Express, MongoDB, Enzyme,
-              Mocha, Axios
-            </p>
-            <a href="">Demo</a>   ||   <a href="">Github</a>
-
-          </aside>
-
-        </section>
-
-        <section class="work wrapper">
-          <h3>Little Mixer</h3>
-          <img
-            class="capstone_pic"
-            src="https://pixel.nymag.com/imgs/fashion/daily/2018/10/05/05-fat-bear-week.w700.h467.jpg"
-            alt="picture of brarian namonywa"
-          />
-
-          <aside>
-            Little Mixer is an app which guides users through the process of
-            planning and throwing a Dinner or Cocktail Party. Little Mixer is
-            intended to make, entertaining, a process that is seems overwhelming
-            achievable. Entertaining should be easy and fun. Given a plan anyone
-            can be a great host.
-            <p>
-              Technology Used: React, Redux, Node.js, Express, MongoDB, Enzyme,
-              Mocha, Axios
-            </p>
-            <a href="">Demo</a>   ||   <a href="">Github</a>
-          </aside>
-          
-        </section>
-      </div>
-      <!--------------- MY WORK END -------------->
-      <!--------------- RESUME START -------------->
-      <section class="resume_section">
-        <h2>resume</h2>
-        <button>download my resume</button>
+          <p>
+            Technology Used: React, Redux, Node.js, Express, MongoDB, Enzyme,
+            Mocha, Axios
+          </p>
+          <a href="">Demo</a> <a href="">Github</a>
+        </aside>
       </section>
-      <!--------------- RESUME START -------------->
-      <!--------------- CONTACT ME START-------------->
 
-      <section class="contact_me">
-        <h2>contact me!</h2>
-        <ul>
-          <li>b.namonywa@gmail.com</li>
-          <li>5028195401</li>
-          <li>github</li>
-          <li>linkedin</li>
-        </ul>
+      <section class="work">
+        <img
+          class="capstone_pic"
+          src="episodePage.png"
+          alt="K12 Engineering Education Screenshot"
+        />
+
+        <aside>
+          <h3>The K12 Engineering Education Podcast</h3>
+          The K12 Engineering Education Podcast's purpose is to engage
+          educators, engineers, entrepreneurs. I had the opportunity to work
+          with two Austin area engineers,
+          <a href="http://www.piuswong.com/">Pios Wong</a> and
+          <a href="https://anthonycodes.com/">Anthony Brown</a>, to create the
+          website for this podcast.
+          <p>
+            Technology Used: React, PHP, Laravel, Puppeteer
+          </p>
+          <a href="http://dev20190116.k12engineering.net/">Demo</a> ||
+          <a href="https://github.com/pieguyatx/tk12eep2018">Github</a>
+        </aside>
       </section>
-      <!--------------- CONTACT ME END -------------->
+
+      <section class="work">
+        <img
+          class="capstone_pic"
+          src="https://pixel.nymag.com/imgs/fashion/daily/2018/10/05/05-fat-bear-week.w700.h467.jpg"
+          width="680"
+          alt="picture of brarian namonywa"
+        />
+
+        <aside>
+          <h3>Sam's Website</h3>
+          SAMS Website
+          <p>
+            Technology Used: Javascript HTML CSS
+          </p>
+          <a href="">Demo</a> <a href="">Github</a>
+        </aside>
+      </section>
     </main>
+
+    <!--------------- MY WORK END -------------->
+   
+    <!--------------- FOOTER START-------------->
+    <footer>
+      <h2>Let's Connect!</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/brarian/">
+            <i class="fab fa-linkedin fa-3x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:b.namonywa@gmail.com?subject=Contact Me"
+            ><i class="far fa-envelope fa-3x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/brarian"
+            ><i class="fab fa-github fa-3x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/brarian"
+            ><i class="far fa-file fa-3x"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!--------------- FOOTER END-------------->
 
     <script src="index.js" async defer></script>
   </body>
