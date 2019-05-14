@@ -67,12 +67,13 @@ footer ul li{
   position: relative;
   display: flex;
   justify-content: flex-end;
-  background-image: url(portfoliomenu.png);
+  background-image: url(longNav.png);
   background-size: contain;
+  
 }
 .drop_button {
   background-color: #fba4a0;
-  color: black;
+  color: #fba4a0;
   padding: 8px;
   font-size: 10px;
   border: none;
@@ -135,7 +136,7 @@ h2{
   text-align: center;
 }
 .capstone_pic{
-  width: 50%;
+  width: 45%;
   height: 50%;
   margin-right: 2em;
 } 
