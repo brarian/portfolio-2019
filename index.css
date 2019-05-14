@@ -150,7 +150,7 @@ aside{
   width: 40%;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (min-width: 860px) {
   .dropdown_menu {
     position: relative;
     display: flex;
@@ -189,8 +189,9 @@ aside{
   }
 
   .capstone_pic {
-    height: 300px;;
-    width: 80%;
+    height: 300px;
+    width: 450px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
