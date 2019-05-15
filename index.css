@@ -174,8 +174,8 @@ aside{
     
   }
   .my_pic {
-    width: 250px;
-    height: 300px;
+    width: 90%;
+  height: 300px; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -189,9 +189,8 @@ aside{
   }
 
   .capstone_pic {
-    height: 300px;
-    width: 450px;
-
+    /* height: 300px;
+    width: 450px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -256,7 +255,7 @@ aside{
   .show div{
     padding: 8px;
   }
-  @media only screen and (min-width: 400px) {
+  /* @media only screen and (min-width: 400px) {
     .capstone_pic {
       height: 250px;;
       width: 90%;
@@ -264,7 +263,7 @@ aside{
       margin-left: auto;
       margin-right: auto;
     }
-  }
+  } */
 }
 
 
