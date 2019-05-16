@@ -1,11 +1,16 @@
-html{scroll-behavior:smooth}
 
+html,body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 body {
   font-family: "Noto Sans JP", sans-serif;
   margin: 0;
   padding: 0;
 }
-
+a img{
+  text-decoration: none; 
+}
 header {
   padding-top: 10px;
   font-family: "Noto Sans JP", sans-serif;
@@ -150,14 +155,13 @@ h2{
 
 aside{
   width: 40%;
+  max-width: 600px;
 }
 
 
 
 @media only screen and (max-width: 860px) {
   .dropdown_menu {
-    position: relative;
-    display: flex;
     justify-content: flex-end;
     background-image: url(portfoliomenu.png);
     background-size: cover;
@@ -165,6 +169,7 @@ aside{
   .heading div {
     font-size: 6vw;
     line-height: 1;
+    width: 100%;
 }
 .heading aside {
   font-size: 5vw;
@@ -194,7 +199,7 @@ aside{
 
   .capstone_pic {
     height: 300px;
-    width: 450px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -209,8 +214,9 @@ aside{
     margin-bottom: 5em;
   }
   .work aside  {
-    margin: 1em;
+    margin: 2em;
     width: 90%;
+    text-align: center;
   }
   .work ul {
     list-style-type: none;
@@ -261,15 +267,20 @@ aside{
   .show div{
     padding: 8px;
   }
-  /* @media only screen and (min-width: 400px) {
+  @media only screen and (max-width: 400px) {
     .capstone_pic {
       height: 250px;;
-      width: 90%;
+      width: 85%;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
-  } */
+    .work aside  {
+      width: 90%;
+      text-align: left;
+      margin: 1em;
+    }
+  }
 }
 
 
