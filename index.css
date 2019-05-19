@@ -22,29 +22,10 @@ header {
   margin-bottom: 10px;
 }
 
-footer{
-  height: 20vh;
-  bottom: 0;
-  width: 100%;
-  background-color: #101457;
-  color: white;
-  padding-bottom: 5vh;
-}
 
-footer h2{
-  padding-top: 3vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 5vw;
-  margin-bottom: 1px;
-  
-}
-footer h3{
-  padding-left: 5vw;
-  padding-top: 1px;
-  margin-top: 1px;
-  text-align: center
-}
+
+
+
 aside a:visited, a{
   text-decoration: underline;
   color: black;
@@ -58,15 +39,9 @@ aside a:visited, a{
     line-height: 1;
     padding-bottom: 10px;
 }
-footer ul{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
 
-footer ul li{
-  margin-left: 4vw;
-}
+
+
 /* -------------NAV START ---------------- */
 .dropdown_menu {
   position: relative;
@@ -160,6 +135,39 @@ aside{
 
 
 
+
+/*********** FOOTER START ************/
+footer{
+  margin-top: 4em;
+  padding-top: 3vh;
+  height: 20vh;
+  bottom: 0;
+  width: 100%;
+  background-color: #101457;
+  color: white;
+  padding-bottom: 3vh;
+}
+
+.main_footer{
+  line-height: 1.5px;
+}
+
+footer h3{
+  text-align: center;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+
+}
+footer li{
+  list-style-type: none;
+  padding-right: 35px
+}
+
+/*********** FOOTER END ************/
+
 @media only screen and (max-width: 860px) {
   .dropdown_menu {
     justify-content: flex-end;
@@ -250,14 +258,6 @@ aside{
     background-color: lightgray;
   }
 
-  footer ul{
-    list-style: none;
-    display: flex;
-    margin-left: -3em
-  }
-  footer ul li{
-    margin-left: 7vw;
-  }
 
   footer a{
     text-decoration: none; 
