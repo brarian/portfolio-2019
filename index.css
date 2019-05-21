@@ -69,7 +69,7 @@ aside a:visited, a{
   background-image: url(longNav.png);
   background-size: contain;
   width: 100%;
-  margin-bottom: 6vh; 
+  margin-bottom: 3vh; 
 }
 .drop_button {
   background-color: #fba4a0;
