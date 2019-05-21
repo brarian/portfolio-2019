@@ -11,6 +11,25 @@ body {
 a img{
   text-decoration: none; 
 }
+.aboutme{
+  padding: 2em;
+}
+.about{
+  max-width: 700px;
+
+}
+
+.profile_pic {
+  width: 300px;
+  height: 275px;
+  /* border-radius: 187px; */
+  margin-right: 3em;
+}
+
+.about h2{
+  text-align: left;
+}
+
 header {
   padding-top: 10px;
   font-family: "Noto Sans JP", sans-serif;
@@ -50,7 +69,7 @@ aside a:visited, a{
   background-image: url(longNav.png);
   background-size: contain;
   width: 100%;
-  
+  margin-bottom: 6vh; 
 }
 .drop_button {
   background-color: #fba4a0;
@@ -121,10 +140,12 @@ h2{
   width: 45%;
   height: 50%;
   margin-right: 2em;
+  padding-top: 1.5em;
+    align-self: center;
 } 
 .work{
   display: flex;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
   justify-content: center;
 }
 
@@ -179,16 +200,28 @@ footer li{
     line-height: 1;
     width: 100%;
 }
-.heading aside {
+/* .heading aside {
   font-size: 5vw;
   line-height: 1;
+} */
+.profile_pic{
+  display: flex;
+  margin-left: auto;
+    margin-right: auto;
+}
+.about h2{
+  text-align: center;
+}
+ .about{
+  max-width: 99%;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
-
   .about_me {
-    max-width: 80%;
+    max-width: 95%;
     margin-top: 3.5em;    
-    margin-bottom: 3.5em;
+    margin-bottom: 3em;
     font-size: 1.2em;
     margin-left: auto;
     margin-right: auto;
@@ -219,12 +252,14 @@ footer li{
   .work {
     display: block;
     background-color: white;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
   }
   .work aside  {
     margin: 2em;
     width: 90%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .work ul {
     list-style-type: none;
@@ -276,7 +311,7 @@ footer li{
       margin-right: auto;
     }
     .work aside  {
-      width: 90%;
+      width: 95%;
       text-align: left;
       margin: 1em;
     }
