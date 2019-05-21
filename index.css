@@ -170,12 +170,17 @@ footer{
 }
 
 .main_footer{
+  display: flex; 
+  justify-content: center;
   line-height: 1.5px;
+
 }
 
 footer h3{
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
+
 
 footer ul{
   display: flex;
