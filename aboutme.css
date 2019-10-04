@@ -26,3 +26,12 @@ body {
   top: 23%;
   left: 27%;
 }
+.bc {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(triangles-1430105_1280.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
