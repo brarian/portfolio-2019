@@ -1,22 +1,10 @@
-/* .row {
-  margin-top: 50px;
-} */
 body {
-  overflow: hidden;
 }
-.col {
-  margin-top: 30px;
-  margin-left: 15px;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-/* img.card-img-top {
-  height: 370px;
-  width: 530px;
-} */
-.bc {
-  width: 110%;
-  height: 110%;
-  background-image: url(triangles-1430105_1280.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.flex-container > div {
+  width: 45%;
 }
