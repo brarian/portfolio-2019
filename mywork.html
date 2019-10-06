@@ -20,7 +20,11 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="mywork.css" />
   </head>
   <body>
@@ -31,9 +35,6 @@
       </p>
     <![endif]-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/landing.html"
-        ><img src="/favicon-32x32.png" width="32" height="32"
-      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -49,7 +50,11 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="/mywork.html">My Work</a>
           <a class="nav-item nav-link" href="#">Skills</a>
+          <a class="navbar-brand" href="/landing.html">
+            <img src="/favicon-32x32.png" width="32" height="32" />
+          </a>
           <a class="nav-item nav-link" href="/aboutme.html">About Me</a>
+          <a class="nav-item nav-link" href="/contact.html">Contact</a>
         </div>
       </div>
     </nav>
@@ -69,22 +74,24 @@
             achievable. Entertaining should be easy and fun. Given a plan anyone
             can be a great host.
           </p>
-          <p>
+          <p class="desc">
             Technology Used: React, Redux, Node.js, Express, MongoDB, Enzyme,
             Mocha, Axios
           </p>
-          <a
-            href="https://littlemixer.netlify.com/"
-            target="blank"
-            class="btn btn-primary"
-            >Live</a
-          >
-          <a
-            href="https://github.com/brarian/new-party-app"
-            target="blank"
-            class="btn btn-primary"
-            >Github</a
-          >
+          <div class="buttons">
+            <a
+              href="https://littlemixer.netlify.com/"
+              target="blank"
+              class="btn btn-primary"
+              >Live</a
+            >
+            <a
+              href="https://github.com/brarian/new-party-app"
+              target="blank"
+              class="btn btn-primary"
+              >Code
+            </a>
+          </div>
         </div>
       </div>
 
@@ -98,30 +105,66 @@
           <h5 class="card-title">
             Samantah Fakahany, Writer and Researcher
           </h5>
-          <p class="card-text">
+          <p class="card-text more_room">
             A portfolio for freelance writer and researcher Samantah Fakahany.
             This website displays the range of Samantah's work and allows
-            clients to contact her directly. Included in the website is an
-            excerpt from "Walking With The Ultimate Rebel: An Ethnographic Study
-            of Hipster Christianity", an ethnography which Samantah completed in
-            2018 on the rise of Hipster Christianity based on time she spent at
-            Hillsong Connecticut, a division of Hillsong NYC.
+            clients to contact her directly.
           </p>
-          <p>
+          <p class="desc">
             Technology Used: Javascript, HTML, CSS
           </p>
-          <a
-            href="http://www.samfakahany.com/"
-            target="blank"
-            class="btn btn-primary"
-            >Live</a
-          >
-          <a
-            href="https://github.com/brarian/sFakahany"
-            target="blank"
-            class="btn btn-primary"
-            >Github</a
-          >
+          <div class="buttons">
+            <a
+              href="http://www.samfakahany.com/"
+              target="blank"
+              class="btn btn-primary"
+              >Live</a
+            >
+            <a
+              href="https://github.com/brarian/sFakahany"
+              target="blank"
+              class="btn btn-primary"
+              >Code</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img
+          src="episodePage.png"
+          alt="K12 Engineering Education Screenshot"
+          class="card-img-top more_top"
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            The K12 Engineering Education Podcast
+          </h5>
+          <p class="card-text">
+            The K12 Engineering Education Podcast's purpose is to engage
+            educators, engineers, entrepreneurs. I had the opportunity to work
+            with two Austin area engineers,
+            <a href="http://www.piuswong.com/" target="blank">Pios Wong</a> and
+            <a href="https://anthonycodes.com/" target="blank">Anthony Brown</a
+            >, to create the website for this podcast.
+          </p>
+          <p class="desc">
+            Technology Used: React, Puppeteer, PHP, Laravel,
+          </p>
+          <div class="buttons">
+            <a
+              href="http://dev20190116.k12engineering.net/"
+              target="blank"
+              class="btn btn-primary"
+              >Live</a
+            >
+            <a
+              href="https://github.com/brarian/scrapertk12"
+              target="blank"
+              class="btn btn-primary"
+              >Code</a
+            >
+          </div>
         </div>
       </div>
     </div>
