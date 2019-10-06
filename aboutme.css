@@ -2,6 +2,8 @@ body {
   position: relative;
   overflow-x: hidden;
   font-family: 'Be Vietnam', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
 }
 .card-body {
   height: 350px;
