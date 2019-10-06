@@ -2,8 +2,10 @@ body {
   font-family: 'Be Vietnam', sans-serif;
   font-size: 20px;
   line-height: 1.4;
+  background-color: #f3f0ec;
 }
 .flex-container {
+  padding-top: 4%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -33,3 +35,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* .bcr {
+  width: 100%;
+  height: 100%;
+  background-image: url(orange-blue-strokes-with-copy-space_23-2148217392.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} */
