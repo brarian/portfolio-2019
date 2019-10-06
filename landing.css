@@ -8,22 +8,9 @@ html {
   font-family: 'Be Vietnam', sans-serif;
 }
 
-.centered,
-.centered1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  text-align: center;
-  position: absolute;
-}
-
 .centered h1 {
   font-size: 4.5em;
 }
 h2 {
   font-size: 3.5em;
-}
-.bring_to_front {
-  z-index: -1;
 }
