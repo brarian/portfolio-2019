@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Brarian Namonywa - Fullstack Developer</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <header>
+      <div class="heading">
+        <div>
+          brarian <br />
+          namonywa
+        </div>
+      </div>
+      <div class="dropdown_menu">
+        <button onclick="drop()" class="drop_button">
+          <i class="fas fa-bars fa-2x"></i>
+        </button>
+        <div id="drop_id" class="content">
+          <div>about me</div>
+          <div><a href="#work">my work</a></div>
+          <div onclick="goto('footer')">contact</div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--------------- ABOUT ME START -------------->
+      <section class="work aboutme">
+        <img
+          src="pic20.jpeg"
+          alt="headshot of Brarian Namonywa"
+          class="profile_pic"
+        />
+        <div class="about">
+          <h2>Hi, I'm Brarian, a full-stack web developer in Austin, Texas.</h2>
+
+          I aspire to use technology to innovate products and services that
+          positively impact people's lives and bring them joy. The entire
+          development process: from brainstorming a seed of an idea, to
+          exploring potential features for existing applications, to coding
+          full-fledged applications, excites me. Currently, I code using the
+          MERN (MongoDB, Express, ReactJS, NodeJS) stack and I am interested in
+          full-stack or frontend roles. I'm a pop culture fanatic who spends my
+          time outside of work on the water, in the gym, or traveling.
+        </div>
+      </section>
+      <!--------------- ABOUT ME END -------------->
+
+      <!--------------- MY WORK START -------------->
+
+      <h2 id="work">My Work</h2>
+      <section class="work">
+        <img
+          class="capstone_pic"
+          src="little_mixer.png"
+          alt="Homepage of Little Mixer"
+        />
+
+        <aside>
+          <h3>Little Mixer</h3>
+          Little Mixer is an app which guides users through the process of
+          planning and throwing a Dinner or Cocktail Party. Little Mixer is
+          intended to make, entertaining, a process that is seems overwhelming
+          achievable. Entertaining should be easy and fun. Given a plan anyone
+          can be a great host.
+
+          <p>
+            Technology Used: React, Redux, Node.js, Express, MongoDB, Enzyme,
+            Mocha, Axios
+          </p>
+          <a href="https://littlemixer.netlify.com/" target="blank">Live</a>
+          <a href="https://github.com/brarian/new-party-app" target="blank"
+            >Github</a
+          >
+        </aside>
+      </section>
+
+      <section class="work">
+        <img
+          class="capstone_pic"
+          src="episodePage.png"
+          alt="K12 Engineering Education Screenshot"
+        />
+
+        <aside>
+          <h3>The K12 Engineering Education Podcast</h3>
+          The K12 Engineering Education Podcast's purpose is to engage
+          educators, engineers, entrepreneurs. I had the opportunity to work
+          with two Austin area engineers,
+          <a href="http://www.piuswong.com/" target="blank">Pios Wong</a> and
+          <a href="https://anthonycodes.com/" target="blank">Anthony Brown</a>,
+          to create the website for this podcast.
+          <p>
+            Technology Used: React, Puppeteer, PHP, Laravel,
+          </p>
+          <a href="http://dev20190116.k12engineering.net/" target="blank"
+            >Live</a
+          >
+          <a href="https://github.com/brarian/scrapertk12" target="blank"
+            >Github</a
+          >
+        </aside>
+      </section>
+
+      <section class="work">
+        <img
+          class="capstone_pic"
+          src="sf_portfolio.png"
+          alt="Samantah Fakahany portfolio website about me page"
+        />
+
+        <aside>
+          <h3>Samantah Fakahany, Writer and Researcher</h3>
+          A portfolio for freelance writer and researcher Samantah Fakahany.
+          This website displays the range of Samantah's work and allows clients
+          to contact her directly. Included in the website is an excerpt from
+          "Walking With The Ultimate Rebel: An Ethnographic Study of Hipster
+          Christianity", an ethnography which Samantah completed in 2018 on the
+          rise of Hipster Christianity based on time she spent at Hillsong
+          Connecticut, a division of Hillsong NYC.
+          <p>
+            Technology Used: Javascript, HTML, CSS
+          </p>
+          <a href="http://www.samfakahany.com/" target="blank">Live</a>
+          <a href="https://github.com/brarian/sFakahany" target="blank"
+            >Github</a
+          >
+        </aside>
+      </section>
+    </main>
+
+    <!--------------- MY WORK END -------------->
+
+    <!--------------- FOOTER START-------------->
+    <footer>
+      <div><h2 class="main_footer">Let's Connect!</h2></div>
+      <div><h3>b.namonywa@gmail.com</h3></div>
+      <div class="social_links">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/brarian/" target="blank">
+              <i class="fab fa-linkedin fa-3x"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:b.namonywa@gmail.com?subject=Contact Me"
+              target="blank"
+              ><i class="far fa-envelope fa-3x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/brarian" target="blank"
+              ><i class="fab fa-github fa-3x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="Brarian_Namonywa_Resume.pdf" target="blank"
+              ><i class="far fa-file fa-3x"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--------------- FOOTER END-------------->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
