@@ -1,0 +1,16 @@
+body {
+  font-size: 20px;
+  line-height: 1.4;
+}
+html {
+  height: 100%;
+  overflow-y: hidden;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.centered h1 {
+  font-size: 4.5em;
+}
+h2 {
+  font-size: 3.5em;
+}
