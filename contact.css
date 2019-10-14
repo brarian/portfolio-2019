@@ -50,3 +50,7 @@ a:active {
     width: 70%;
   }
 }
+
+.navbar-brand {
+  margin-right: 20vw;
+}

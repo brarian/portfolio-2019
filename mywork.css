@@ -53,3 +53,7 @@ body {
     margin-top: 4%;
   }
 }
+
+.navbar-nav {
+  margin-right: 20vw;
+}

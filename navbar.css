@@ -36,3 +36,12 @@ nav a {
   color: black;
   text-align: center;
 }
+
+.navbar-brand {
+  margin-right: 20vw;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f6f0ee;
+}
